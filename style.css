@@ -1,0 +1,142 @@
+
+/* 1. CONFIGURATION GÉNÉRALE */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #292929;
+}
+
+
+/* 2. BARRE DE NAVIGATION */
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+}
+
+
+/* 3. SECTION HERO */
+
+.hero {
+    min-height: 100vh;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.60),
+            rgba(0, 0, 0, 0.60)
+        ),
+        url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=85");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 100px 0 60px;
+}
+
+
+/* 4. TITRES */
+
+section h2 {
+    color: #252525;
+}
+
+
+/* 5. CARTES DU MENU */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+.price {
+    color: #b77900;
+    font-size: 1.2rem;
+}
+
+
+/* 6. SECTION À PROPOS */
+
+#apropos img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+}
+
+
+/* 7. FORMULAIRE */
+
+.form-control {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    border-color: #d6a000;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.2);
+}
+
+
+/* 8. BOUTONS */
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+/* 9. PIED DE PAGE */
+
+footer a {
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffc107 !important;
+}
+
+
+/* 10. PETITS ÉCRANS */
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}

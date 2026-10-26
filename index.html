@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KAY LEEK - Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Icônes Bootstrap -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Notre propre CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. BARRE DE NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#accueil">
+                KAY LEEK
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavigation"
+                    aria-controls="menuNavigation"
+                    aria-expanded="false"
+                    aria-label="Ouvrir la navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNavigation">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apropos">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- 2. SECTION HERO -->
+    <header id="accueil" class="hero d-flex align-items-center text-center">
+        <div class="container text-white">
+
+            <h1 class="display-3 fw-bold">
+                Le goût de l'excellence
+            </h1>
+
+            <p class="lead">
+                Découvrez une cuisine généreuse et authentique.
+            </p>
+
+            <a href="#menu" class="btn btn-warning btn-lg mt-3">
+                Découvrir notre menu
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- 3. SECTION MENU -->
+    <section id="menu" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center fw-bold mb-2">Notre menu</h2>
+            <p class="text-center text-muted mb-5">
+                Des plats préparés avec passion.
+            </p>
+
+            <div class="row g-4">
+
+                <!-- Plat 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80"
+                             class="card-img-top"
+                             alt="Salade fraîche">
+                        <div class="card-body">
+                            <h5 class="card-title">Salade fraîche</h5>
+                            <p class="card-text">
+                                Une salade colorée composée de légumes frais
+                                et d'une sauce maison.
+                            </p>
+                            <p class="price fw-bold">3 500 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plat 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1546069901-d5bfd2cbfb1f?auto=format&fit=crop&w=800&q=80"
+                             class="card-img-top"
+                             alt="Plat cuisiné">
+                        <div class="card-body">
+                            <h5 class="card-title">Assiette du chef</h5>
+                            <p class="card-text">
+                                Un plat savoureux préparé avec des ingrédients
+                                sélectionnés par notre chef.
+                            </p>
+                            <p class="price fw-bold">5 000 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plat 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                             class="card-img-top"
+                             alt="Pizza artisanale">
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza artisanale</h5>
+                            <p class="card-text">
+                                Une pizza généreuse avec une pâte croustillante,
+                                du fromage et des légumes.
+                            </p>
+                            <p class="price fw-bold">4 500 FCFA</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 4. SECTION À PROPOS -->
+    <section id="apropos" class="py-5 bg-light">
+        <div class="container">
+
+            <div class="row align-items-center g-4">
+
+                <div class="col-12 col-md-6">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80"
+                         class="img-fluid rounded shadow"
+                         alt="Salle de restaurant">
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <h2 class="fw-bold">À propos de nous</h2>
+
+                    <p>
+                        KAY LEEK est un restaurant fictif qui célèbre
+                        les saveurs, la convivialité et la qualité.
+                        Nous privilégions des ingrédients soigneusement
+                        sélectionnés et une cuisine préparée avec passion.
+                    </p>
+
+                    <p>
+                        Notre objectif est d'offrir à chaque client
+                        une expérience culinaire agréable.
+                    </p>
+
+                    <a href="#contact" class="btn btn-dark">
+                        Nous contacter
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 5. SECTION CONTACT -->
+    <section id="contact" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center fw-bold mb-4">Contactez-nous</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+
+                    <form>
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control"
+                                   id="nom" placeholder="Votre nom" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control"
+                                   id="email" placeholder="nom@exemple.com"
+                                   required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message"
+                                      rows="4" placeholder="Votre message"
+                                      required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning">
+                            Envoyer
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 6. PIED DE PAGE -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+
+            <p class="mb-2">
+                &copy; 2026 KAY LEEK. Tous droits réservés.
+            </p>
+
+            <a href="#" class="text-white mx-2"
+               aria-label="Facebook">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <a href="#" class="text-white mx-2"
+               aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+
+            <a href="#" class="text-white mx-2"
+               aria-label="WhatsApp">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript : menu mobile et composants interactifs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
